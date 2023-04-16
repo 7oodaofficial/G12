@@ -186,6 +186,10 @@ a{
     transition: var(--transition);
 }
 
+.home-page .container .box a:not(:first-child){
+    margin-top: 20px;
+}
+
 .home-page .container .box a:hover{
     color: var(--primary-color);
     background-color: transparent;
